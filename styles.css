@@ -1,9 +1,10 @@
 section{
     position: absolute;
-    border: 1px solid #000;
+    background: rgb(186, 213, 230);
+    border: 1px solid;
     border-radius: 5px;
     width: 400px;
-    height: 550px;
+    height: 650px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,27 +18,36 @@ section{
 }
 
 .items{
-    padding: 400px 0 0 25px;
+    padding: 480px 0 0 15px;
 }
 
 .item{
     font-weight: bold;
     color: #fff;
     float: left;
-    padding: 0 0 0 15px;
+    padding: 0 0 0 25px;
     bottom: 100%;
 }
 
-.perfil img{
-    float: left;
-    padding: 0 20px 0 15px;
-    border-radius: 50%;
-    width: 90px;
-    height: 80px;
+.perfil{
+    box-sizing: border-box;
+    margin: 15px 0 0 15px;
 }
 
-.perfil h2{
-    padding: 11px 0 0 0;
+.perfil-img{
+    float: left;
+    background-image: url(img/photo-1438761681033-6461ffad8d80.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.perfil-text{
+
+    box-sizing: border-box;
+    padding: 5px 0 0 115px;
 }
 
 .perfil h4{
